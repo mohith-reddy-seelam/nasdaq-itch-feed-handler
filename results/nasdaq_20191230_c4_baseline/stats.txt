@@ -1,0 +1,26 @@
+TSC calibrated at 2.3000 GHz
+/home/mohithreddyseelam_gmail_com/data/12302019.NASDAQ_ITCH50.bin: 8.25 GB, mode=stats
+prefaulted in 36.1 s (checksum 115729457)
+
+message type                                 count    share
+AddOrder                       'A'      117145568   43.59%
+OrderDelete                    'D'      114360997   42.55%
+OrderReplace                   'U'       21639067    8.05%
+OrderExecuted                  'E'        5722824    2.13%
+Noii                           'I'        4024315    1.50%
+OrderCancel                    'X'        2787676    1.04%
+AddOrderMpid                   'F'        1485888    0.55%
+Trade                          'P'        1218602    0.45%
+MarketParticipantPosition      'L'         215161    0.08%
+OrderExecutedWithPrice         'C'          99917    0.04%
+CrossTrade                     'Q'          17836    0.01%
+RegShoRestriction              'Y'           9013    0.00%
+StockTradingAction             'H'           8966    0.00%
+StockDirectory                 'R'           8906    0.00%
+LuldAuctionCollar              'J'             34    0.00%
+SystemEvent                    'S'              6    0.00%
+IpoQuotingPeriodUpdate         'K'              3    0.00%
+MwcbDeclineLevel               'V'              1    0.00%
+
+268744780 messages (03:04:32.057543 .. 20:05:00.000040 exchange time) in 2.86 s: 94.1 M msg/s, 2.89 GB/s
+integrity: unknown types 0, bad lengths 0, unknown order refs 0, level mismatches 0

@@ -1,0 +1,4 @@
+Running main() from /home/mohithreddyseelam_gmail_com/work/itch-feed-handler/build/release/_deps/googletest-src/googletest/src/gtest_main.cc
+[ checked  ] 50000000 messages, 8893 instruments, 1727130 live orders at end
+[==========] 1 test from 1 test suite ran. (42049 ms total)
+[  PASSED  ] 1 test.

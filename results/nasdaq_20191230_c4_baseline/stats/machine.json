@@ -1,0 +1,12 @@
+{
+  "cpu": "INTEL(R) XEON(R) PLATINUM 8581C CPU @ 2.30GHz",
+  "os": "Linux 7.0.0-1014-gcp",
+  "compiler": "gcc 16.0.1",
+  "build_flags": "GNU 16.0.1 -O3 -DNDEBUG -std=c++26 -freflection -march=native",
+  "logical_cpus": 8,
+  "invariant_tsc": true,
+  "tsc_ghz": 2.299980700357263,
+  "producer_cpu": 4,
+  "consumer_cpu": 5,
+  "priority": "HIGH_PRIORITY_CLASS / THREAD_PRIORITY_TIME_CRITICAL"
+}

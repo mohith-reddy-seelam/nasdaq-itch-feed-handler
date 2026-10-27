@@ -1,0 +1,15 @@
+TSC calibrated at 2.3000 GHz
+/home/mohithreddyseelam_gmail_com/data/12302019.NASDAQ_ITCH50.bin: 8.25 GB, mode=pipeline
+prefaulted in 0.2 s (checksum 115729457)
+book shards: 2, messages per shard: 50.4% 49.6%
+
+latency (ns)                      count       p50       p90       p99      p99.9     p99.99        max
+arrival_to_book                 3951123       299      2671     14024      35617      54316     303822
+arrival_to_signal                807107       431       667      1419       6344      21815     215265
+
+symbol           volume       VWAP     open X    close X         bid         ask      top chg   levels  OFI/vol
+
+9870254 messages (03:04:32.057543 .. 09:31:59.999980 exchange time) in 180.15 s: 0.1 M msg/s, 0.00 GB/s
+latency measured on 3951123 messages inside window 09:29:00-09:32:00
+integrity: unknown types 0, bad lengths 0, unknown order refs 0, level mismatches 0
+peak live orders 1636268, order-map rehashes 0, top-of-book changes 3032291

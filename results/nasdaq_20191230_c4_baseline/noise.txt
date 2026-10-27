@@ -1,0 +1,10 @@
+TSC calibrated at 2.3000 GHz
+cpu            gaps/s     stolen %
+4                  59        0.01%
+5                  46        0.02%
+6                  14        0.01%
+
+latency (ns)                      count       p50       p90       p99      p99.9     p99.99        max
+noise_cpu4                          296      1224      3450     45412      72581      72581      72581
+noise_cpu5                          228      1391      4563     49864      60337      60337      60337
+noise_cpu6                           70      3673     20925    107504     107504     107504     107504

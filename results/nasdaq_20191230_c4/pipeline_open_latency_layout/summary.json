@@ -1,0 +1,22 @@
+{
+  "file": "12302019.NASDAQ_ITCH50.bin",
+  "mode": "pipeline",
+  "pacing": "replay:1",
+  "messages": 9870254,
+  "bytes": 335668299,
+  "seconds": 180.145967406,
+  "messages_per_second": 54790.3133338263,
+  "gigabytes_per_second": 0.0018633128669680124,
+  "unknown_type": 0,
+  "bad_length": 0,
+  "unknown_order_refs": 0,
+  "level_mismatches": 0,
+  "peak_live_orders": 1636268,
+  "order_map_rehashes": 0,
+  "top_of_book_changes": 3032291,
+  "measured_messages": 3951123,
+  "book_shards": 2,
+  "window": "09:29:00-09:32:00",
+  "first_timestamp_ns": 11072057543747,
+  "last_timestamp_ns": 34319999980399
+}

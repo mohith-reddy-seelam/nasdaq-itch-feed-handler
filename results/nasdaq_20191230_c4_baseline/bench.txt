@@ -1,0 +1,35 @@
+----------------------------------------------------------------------------------------------------------------------
+Benchmark                                                            Time             CPU   Iterations UserCounters...
+----------------------------------------------------------------------------------------------------------------------
+decode/null_handler/iterations:1/repeats:3/real_time_mean         2155 ms         2155 ms            3 bytes_per_second=3.56628Gi/s items_per_second=124.718M/s ns_per_msg=8.01813ns
+decode/null_handler/iterations:1/repeats:3/real_time_median       2153 ms         2153 ms            3 bytes_per_second=3.56885Gi/s items_per_second=124.807M/s ns_per_msg=8.01235ns
+decode/null_handler/iterations:1/repeats:3/real_time_stddev       3.00 ms         3.00 ms            3 bytes_per_second=5.08281Mi/s items_per_second=173.586k/s ns_per_msg=11.1688ps
+decode/null_handler/iterations:1/repeats:3/real_time_cv           0.14 %          0.14 %             3 bytes_per_second=0.14% items_per_second=0.14% ns_per_msg=0.14%
+decode/moldudp64/iterations:1/repeats:3/real_time_mean            79.9 ms         79.9 ms            3 items_per_second=250.208M/s packets=473.899k
+decode/moldudp64/iterations:1/repeats:3/real_time_median          80.2 ms         80.2 ms            3 items_per_second=249.298M/s packets=473.899k
+decode/moldudp64/iterations:1/repeats:3/real_time_stddev         0.567 ms        0.567 ms            3 items_per_second=1.78225M/s packets=0
+decode/moldudp64/iterations:1/repeats:3/real_time_cv              0.71 %          0.71 %             3 items_per_second=0.71% packets=0.00%
+book/direct_linear/iterations:1/repeats:3/real_time_mean         21973 ms        21973 ms            3 bytes_per_second=358.225Mi/s items_per_second=12.234M/s ns_per_msg=81.7611ns peak_orders=1.92408M
+book/direct_linear/iterations:1/repeats:3/real_time_median       21901 ms        21901 ms            3 bytes_per_second=359.307Mi/s items_per_second=12.2709M/s ns_per_msg=81.4935ns peak_orders=1.92408M
+book/direct_linear/iterations:1/repeats:3/real_time_stddev         438 ms          438 ms            3 bytes_per_second=7.10709Mi/s items_per_second=242.719k/s ns_per_msg=1.6296ns peak_orders=0
+book/direct_linear/iterations:1/repeats:3/real_time_cv            1.99 %          1.99 %             3 bytes_per_second=1.98% items_per_second=1.98% ns_per_msg=1.99% peak_orders=0.00%
+book/fib_linear/iterations:1/repeats:3/real_time_mean            24963 ms        24963 ms            3 bytes_per_second=315.254Mi/s items_per_second=10.7664M/s ns_per_msg=92.886ns peak_orders=1.92408M
+book/fib_linear/iterations:1/repeats:3/real_time_median          24889 ms        24889 ms            3 bytes_per_second=316.167Mi/s items_per_second=10.7976M/s ns_per_msg=92.6128ns peak_orders=1.92408M
+book/fib_linear/iterations:1/repeats:3/real_time_stddev            222 ms          222 ms            3 bytes_per_second=2.79465Mi/s items_per_second=95.442k/s ns_per_msg=826.635ps peak_orders=0
+book/fib_linear/iterations:1/repeats:3/real_time_cv               0.89 %          0.89 %             3 bytes_per_second=0.89% items_per_second=0.89% ns_per_msg=0.89% peak_orders=0.00%
+book/direct_binary/iterations:1/repeats:3/real_time_mean         25292 ms        25292 ms            3 bytes_per_second=311.331Mi/s items_per_second=10.6325M/s ns_per_msg=94.1115ns peak_orders=1.92408M
+book/direct_binary/iterations:1/repeats:3/real_time_median       25600 ms        25600 ms            3 bytes_per_second=307.383Mi/s items_per_second=10.4977M/s ns_per_msg=95.2594ns peak_orders=1.92408M
+book/direct_binary/iterations:1/repeats:3/real_time_stddev         776 ms          776 ms            3 bytes_per_second=9.70836Mi/s items_per_second=331.557k/s ns_per_msg=2.88917ns peak_orders=0
+book/direct_binary/iterations:1/repeats:3/real_time_cv            3.07 %          3.07 %             3 bytes_per_second=3.12% items_per_second=3.12% ns_per_msg=3.07% peak_orders=0.00%
+book/direct_stdmap/iterations:1/repeats:3/real_time_mean         37069 ms        37069 ms            3 bytes_per_second=212.318Mi/s items_per_second=7.251M/s ns_per_msg=137.933ns peak_orders=1.92408M
+book/direct_stdmap/iterations:1/repeats:3/real_time_median       36857 ms        36857 ms            3 bytes_per_second=213.504Mi/s items_per_second=7.29151M/s ns_per_msg=137.146ns peak_orders=1.92408M
+book/direct_stdmap/iterations:1/repeats:3/real_time_stddev         555 ms          555 ms            3 bytes_per_second=3.15417Mi/s items_per_second=107.72k/s ns_per_msg=2.06403ns peak_orders=0
+book/direct_stdmap/iterations:1/repeats:3/real_time_cv            1.50 %          1.50 %             3 bytes_per_second=1.49% items_per_second=1.49% ns_per_msg=1.50% peak_orders=0.00%
+book/stdhash_linear/iterations:1/repeats:3/real_time_mean        45902 ms        45902 ms            3 bytes_per_second=171.939Mi/s items_per_second=5.87199M/s ns_per_msg=170.803ns peak_orders=1.92408M
+book/stdhash_linear/iterations:1/repeats:3/real_time_median      46258 ms        46258 ms            3 bytes_per_second=170.114Mi/s items_per_second=5.80966M/s ns_per_msg=172.127ns peak_orders=1.92408M
+book/stdhash_linear/iterations:1/repeats:3/real_time_stddev       3030 ms         3030 ms            3 bytes_per_second=11.5049Mi/s items_per_second=392.912k/s ns_per_msg=11.2756ns peak_orders=0
+book/stdhash_linear/iterations:1/repeats:3/real_time_cv           6.60 %          6.60 %             3 bytes_per_second=6.69% items_per_second=6.69% ns_per_msg=6.60% peak_orders=0.00%
+book/reference/iterations:1/repeats:3/real_time_mean             68041 ms        68041 ms            3 bytes_per_second=115.699Mi/s items_per_second=3.95133M/s ns_per_msg=253.181ns peak_orders=1.92408M
+book/reference/iterations:1/repeats:3/real_time_median           68405 ms        68405 ms            3 bytes_per_second=115.037Mi/s items_per_second=3.92871M/s ns_per_msg=254.537ns peak_orders=1.92408M
+book/reference/iterations:1/repeats:3/real_time_stddev            1665 ms         1665 ms            3 bytes_per_second=2.85371Mi/s items_per_second=97.4591k/s ns_per_msg=6.19564ns peak_orders=0
+book/reference/iterations:1/repeats:3/real_time_cv                2.45 %          2.45 %             3 bytes_per_second=2.47% items_per_second=2.47% ns_per_msg=2.45% peak_orders=0.00%
